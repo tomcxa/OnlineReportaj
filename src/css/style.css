@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.online-translation {
+  width: 480px;
+  height: 360px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.event-container {
+  width: 80%;
+  max-height: 300px;
+  margin: 15px;
+  overflow-y: auto;
+}
+
+.event-item {
+  display: flex;
+  margin: 10px;
+}
+
+.ico {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+
+.event-item_info {
+  flex-shrink: 5;
+  display: inline-block;
+}
+
+.event-item_info p {
+  margin: 5px 10px;
+}
+
+.action {
+  background-image: url('../img/action.png');
+}
+
+.freekick {
+  background-image: url('../img/freekick.png');
+}
+
+.goal {
+  background-image: url('../img/goal.png');
+}
